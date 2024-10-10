@@ -9,20 +9,31 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['poppins', 'sans-serif'],
+        italic: ['playfair display', 'serif'],
       },
       colors: {
         "default": {
-          100: '#fde3b9',  // Light blend of both colors
-          200: '#fbcf92',
-          300: '#f8b96c',
-          400: '#f6a446',
-          500: '#f57f29',  // A balanced middle between #fabc14 and #ee4723
-          600: '#d66f24',  // Darker tone based on the combination
-          700: '#b75f1f',
-          800: '#984f1a',
-          900: '#7a3f15',  // Darkest shade
-          "tr": "#f57f29cc" // Transparent version of the middle tone
-        }
+          100: '#fde3d1',  // lightest shade
+          200: '#fbbd9e',
+          300: '#f9956b',
+          400: '#f77c4c',
+          500: '#f57f29',  // base color
+          600: '#d36823',
+          700: '#b1511d',
+          800: '#8f3a17',
+          900: '#e36000',  // darkest shade
+        },
+        secondary: {
+          100: '#fbd4c8',  // lightest shade
+          200: '#f7a29a',
+          300: '#f78b6e',
+          400: '#f4734a',
+          500: '#ee4723',  // base color
+          600: '#d43b1e',
+          700: '#b52e1a',
+          800: '#971a15',
+          900: '#7a1411',  // darkest shade
+        },
       },
     },
   },

@@ -4,8 +4,8 @@
 </script>
 
 <template>
-    <section class="z-0">
-        <div class="grid max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-10 lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
+    <section class="z-0 mb-20">
+        <div class="grid max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
             <div class="place-self-center lg:col-span-7 pe-32">
                 <h1 class="text-5xl leading-relaxed text-slate-800">
                     Dream, Discover & Conquer with <span class="font-bold text-[#ee4723]">Consult Elite</span> Your Study Abroad Partner

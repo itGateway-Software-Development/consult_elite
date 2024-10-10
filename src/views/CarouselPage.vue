@@ -1,9 +1,9 @@
 <script setup >
 import Blog from '@/components/mainpage/Blog.vue';
+import Carousel from '@/components/mainpage/Carousel.vue';
 import ContactForm from '@/components/mainpage/ContactForm.vue';
 import Faq from '@/components/mainpage/Faq.vue';
 import Founder from '@/components/mainpage/Founder.vue';
-import HeroSection from '@/components/mainpage/HeroSection.vue';
 import OurServices from '@/components/mainpage/OurServices.vue';
 import ReadyToBegin from '@/components/mainpage/ReadyToBegin.vue';
 import SocialProof from '@/components/mainpage/SocialProof.vue';
@@ -15,7 +15,7 @@ import TrendingCourses from '@/components/mainpage/TrendingCourses.vue';
 
 <template>
   <div class="home">
-    <HeroSection />
+    <Carousel />
     <SocialProof />
     <ContactForm />
     <OurServices />

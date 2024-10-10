@@ -1,44 +1,58 @@
 <template>
-    <footer class="p-4 bg-default-900 text-white sm:p-6 mt-auto dark:bg-gray-800">
-        <div class="mx-auto max-w-screen-xl">
+    <footer class=" bg-slate-300 sm:p-6 mt-auto rounded-t-3xl">
+        <div class="mx-auto max-w-screen-xl pt-14">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
-                    <a href="https://flowbite.com" class="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                    </a>
+                    <div>
+                        <img class="w-[300px] mb-5" src="@/assets/images/logo.png" alt="">
+                        <p class="w-[650px] text-slate-700 text-sm">
+                            Consult Elite is a leading education consulting company, dedicated to helping students achieve their dreams of studying abroad. We provide expert guidance on university admissions, scholarships, and visa applications
+                        </p>
+                    </div>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
                         <ul class="text-gray-600 dark:text-gray-400">
-                            <li class="mb-4">
-                                <a href="https://flowbite.com" class="hover:underline">Flowbite</a>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline">Career Consultation</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline">Visa Assistant</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline">Finicial Assistant</a>
                             </li>
                             <li>
-                                <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                                <a href="#" class="hover:underline">Interview Assistant</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-s uppercase dark:text-white">Follow us</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-s uppercase dark:text-white">Business</h2>
                         <ul class="text-gray-600 dark:text-gray-400">
-                            <li class="mb-4">
-                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline ">Consult Elite</a>
                             </li>
                             <li>
-                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                                <a href="#" class="hover:underline">Consult Mart</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">What We Do</h2>
                         <ul class="text-gray-600 dark:text-gray-400">
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline">What We Do</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline">About Us</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="hover:underline">Success Story</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                <a href="#" class="hover:underline">University Visit</a>
                             </li>
                         </ul>
                     </div>
@@ -46,7 +60,7 @@
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">Consult Elite™</a>. All Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                     <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

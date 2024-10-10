@@ -7,6 +7,10 @@ const routes = [
     component: () => import('@/views/HomePage.vue')
   },
   {
+    path: '/c',
+    component: () => import('@/views/CarouselPage.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     component: () => import('@/views/NotFoundPage.vue')
   }

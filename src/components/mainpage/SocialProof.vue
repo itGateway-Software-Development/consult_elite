@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <section class="my-16">
-        <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-10 ">
+    <section class="mb-20">
+        <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 ">
             <dl class="grid sm:grid-cols-4 gap-5 ps-5">
                 <div class="flex flex-col items-start pe-10">
                     <dt class="mb-2 text-3xl text-default-500 md:text-5xl font-extrabold">10 + </dt>
