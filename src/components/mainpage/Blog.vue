@@ -4,7 +4,7 @@
 
 <template>
     <section class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 mb-20">
-        <SectionHeader title="Top Blog" />
+        <SectionHeader title="Top Blogs" />
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-10">
             <div class="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" v-for="i in 6" :key="i">
                 <img class="rounded-t-lg h-64 object-cover w-full" :src="require(`@/assets/images/mainPage/b${i}.jpg`)" alt="" />
