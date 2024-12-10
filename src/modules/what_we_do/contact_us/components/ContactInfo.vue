@@ -28,7 +28,7 @@
 <template>
     <Container>
         <div class="flex justify-between  items-center mt-20 -mb-14">
-            <div v-for="(info, index) in infos" :key="index" class="flex items-center h-[100px] bg-slate-50  py-1 px-2 shadow-2xl w-[400px] rounded-lg">
+            <div v-for="(info, index) in infos" :key="index" class="flex items-center h-[100px] bg-slate-50  py-1 px-2 shadow-2xl lg:w-[350px] 2xl:w-[400px] rounded-lg">
                 <img class="w-20 h-20" :src="info.img" alt="">
                 <div class="ms-3">
                     <h1 class="text-slate-500 mb-1">{{info.title}}</h1>
