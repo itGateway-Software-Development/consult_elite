@@ -1,11 +1,13 @@
 <script setup>
-import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/vue";
+import {Autoplay} from 'swiper/modules'
 import { ref } from "vue";
-import NavigateButtons from "../common/NavigateButtons.vue";
+import 'swiper/css/autoplay'
+import NavigateButtons from "@/components/common/NavigateButtons.vue";
+
 
 const swiperRef = ref(null);
-
+const modules = [Autoplay]
 const onSwiper = (swiper) => {
   swiperRef.value = swiper;
 };
@@ -28,9 +30,7 @@ const images = [
 </script>
 
 <template>
-  <section
-    class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 relative mb-20"
-  >
+  <Container customClass="mb-20">
     <div class="flex justify-between items-center">
       <div class="header">
         <p class="font-bold text-lg text-slate-600">50+ Success Stories</p>
@@ -45,9 +45,11 @@ const images = [
     <div class="mt-10">
       <Swiper
         ref="swiperRef"
+        :modules="modules"
         :slides-per-view="4"
         :space-between="30"
         :autoplay="true"
+        :speed="300"
         :loop="true"
         @swiper="onSwiper"
       >
@@ -68,5 +70,5 @@ const images = [
         </swiper-slide>
       </Swiper>
     </div>
-  </section>
+  </Container>
 </template>

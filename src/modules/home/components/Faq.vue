@@ -1,44 +1,44 @@
 <script setup>
-import { ref } from 'vue';
+    import { ref } from 'vue';
 
-const questions = ref([
-    {
-        id: 1,
-        question: "How to get admission in abroad universities?",
-        answer: "Norway, USA, UK, Germany & Italy are among the safest countries for Bangladeshi students for higher studies.",
-        isOpen: false, // Controls if the answer is visible
-    },
-    {
-        id: 2,
-        question: "What are the admission requirements?",
-        answer: "The admission requirements typically include academic transcripts, letters of recommendation, English proficiency, and standardized test scores.",
-        isOpen: false,
-    },
-    {
-        id: 3,
-        question: "How to apply for a student visa?",
-        answer: "You need an acceptance letter from a university, proof of financial ability, and other supporting documents to apply for a student visa.",
-        isOpen: false,
-    },
-    {
-        id: 4,
-        question: "What are the popular countries for higher education?",
-        answer: "Some of the most popular countries for higher education include the USA, UK, Canada, Australia, and Germany.",
-        isOpen: false,
-    },
-    {
-        id: 5,
-        question: "How much does it cost to study abroad?",
-        answer: "The cost of studying abroad varies by country and university, but it typically includes tuition fees, living expenses, and other costs like health insurance.",
-        isOpen: false,
-    },
-    {
-        id: 6,
-        question: "Are there scholarships available for international students?",
-        answer: "Yes, many universities and organizations offer scholarships for international students. Research is key to finding the right one for your qualifications.",
-        isOpen: false,
-    }
-]);
+    const questions = ref([
+        {
+            id: 1,
+            question: "How to get admission in abroad universities?",
+            answer: "Norway, USA, UK, Germany & Italy are among the safest countries for Bangladeshi students for higher studies.",
+            isOpen: false, // Controls if the answer is visible
+        },
+        {
+            id: 2,
+            question: "What are the admission requirements?",
+            answer: "The admission requirements typically include academic transcripts, letters of recommendation, English proficiency, and standardized test scores.",
+            isOpen: false,
+        },
+        {
+            id: 3,
+            question: "How to apply for a student visa?",
+            answer: "You need an acceptance letter from a university, proof of financial ability, and other supporting documents to apply for a student visa.",
+            isOpen: false,
+        },
+        {
+            id: 4,
+            question: "What are the popular countries for higher education?",
+            answer: "Some of the most popular countries for higher education include the USA, UK, Canada, Australia, and Germany.",
+            isOpen: false,
+        },
+        {
+            id: 5,
+            question: "How much does it cost to study abroad?",
+            answer: "The cost of studying abroad varies by country and university, but it typically includes tuition fees, living expenses, and other costs like health insurance.",
+            isOpen: false,
+        },
+        {
+            id: 6,
+            question: "Are there scholarships available for international students?",
+            answer: "Yes, many universities and organizations offer scholarships for international students. Research is key to finding the right one for your qualifications.",
+            isOpen: false,
+        }
+    ]);
 
 
     const toggle = (index) => {
@@ -54,7 +54,7 @@ const questions = ref([
 
 <template>
     <section class=" bg-slate-200 py-20 mb-20 rounded-[4rem]">
-        <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto pt-8 px-20">
+        <Container customClass="pt-8">
             <div class="grid grid-cols-2 gap-10">
                 <div class="flex flex-col justify-center h-[400px]">
                     <h3 class="mb-4 text-secondary-700 font-bold">FAQ</h3>
@@ -110,6 +110,6 @@ const questions = ref([
                         </div>
                 </div>
             </div>
-        </div>
+        </Container>
     </section>
 </template>

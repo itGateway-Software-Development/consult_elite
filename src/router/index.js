@@ -3,16 +3,30 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: () => import('@/views/HomePage.vue')
-  },
-  {
-    path: '/c',
-    component: () => import('@/views/CarouselPage.vue')
+    name: 'layout',
+    component: () => import('@/components/layouts/DefaultLayout.vue'),
+    children: [
+      {
+        path: '/',
+        name: 'home',
+        component: () => import('@/modules/home/views/HomePage.vue')
+      },
+      {
+        path: '/what-we-do',
+        name: 'what-we-do',
+        children: [
+          {
+            path: 'contact-us',
+            name: 'contact-us',
+            component: () => import('@/modules/what_we_do/contact_us/views/ContactUs.vue')
+          }
+        ]
+      },
+    ]
   },
   {
     path: '/:pathMatch(.*)*',
-    component: () => import('@/views/NotFoundPage.vue')
+    component: () => import('@/components/NotFoundPage.vue')
   }
 ]
 

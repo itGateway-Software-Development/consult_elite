@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto mt-44 py-8 px-20 relative mb-20  ">
+    <Container customClass="mb-20 relative mt-44">
         <div class="grid grid-cols-2 gap-10 px-20 bg-default-500 rounded-[70px] h-[450px]">
             <div class="flex flex-col justify-center gap-5 py-10">
                 <div>
@@ -28,5 +28,5 @@
                 <img class="w-[520px] -mt-[140px]" src="@/assets/images/mainPage/go.png" alt="">
             </div>
         </div>
-    </section>
+    </Container>
 </template>

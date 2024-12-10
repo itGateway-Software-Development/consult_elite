@@ -3,7 +3,7 @@
 
 <template>
     <section  class=" bg-slate-200 pt-20 mb-20 rounded-[4rem]">
-        <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto pt-8 px-20">
+        <Container>
             <SectionHeader title="Study Abroad Step by Step" />
             <div class="grid grid-cols-2 gap-10 mt-14">
                 <div class="col-span-1">
@@ -52,6 +52,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </Container>
     </section>
 </template>

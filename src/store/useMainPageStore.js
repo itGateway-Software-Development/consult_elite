@@ -67,32 +67,37 @@ export const useMainPageStore = defineStore("mainPageStore", () => {
   const courses = ref([
     {
       title: "Business Management",
-      image: require("@/assets/images/mainPage/business.jpg"),
+      image: require("@/assets/images/mainPage/courses/business.jpg"),
       to: "#",
     },
     {
       title: "Engineering",
-      image: require("@/assets/images/mainPage/engineering.jpg"),
+      image: require("@/assets/images/mainPage/courses/engineering.jpg"),
       to: "#",
     },
     {
       title: "Computer Science",
-      image: require("@/assets/images/mainPage/cs.jpg"),
+      image: require("@/assets/images/mainPage/courses/cs.jpg"),
       to: "#",
     },
     {
-      title: "Law",
-      image: require("@/assets/images/mainPage/law.png"),
+      title: "Business Consult & Coaching",
+      image: require("@/assets/images/mainPage/courses/business_consulting.webp"),
       to: "#",
     },
     {
       title: "Finance",
-      image: require("@/assets/images/mainPage/finance.jpg"),
+      image: require("@/assets/images/mainPage/courses/finance.jpg"),
       to: "#",
     },
     {
       title: "Architecture",
-      image: require("@/assets/images/mainPage/archi.jpg"),
+      image: require("@/assets/images/mainPage/courses/archi.jpg"),
+      to: "#",
+    },
+    {
+      title: "Supply Chain & Logistics",
+      image: require("@/assets/images/mainPage/courses/supplychain.jpg"),
       to: "#",
     },
   ])

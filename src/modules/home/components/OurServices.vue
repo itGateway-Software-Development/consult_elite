@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <section class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 mb-20">
+    <Container customClass="mb-20">
         <SectionHeader title="Our Services" />
         <div class="mt-10">
             <div class="grid grid-cols-3 gap-5">
@@ -28,5 +28,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </Container>
 </template>

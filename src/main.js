@@ -5,6 +5,7 @@ import './assets/css/tailwind.css'
 import 'flowbite'
 import { initGlobalComponents } from './plugins/components'
 import { createPinia } from 'pinia'
+import "swiper/css";
 
 const app = createApp(App)
 const pinia = createPinia()

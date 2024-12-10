@@ -4,7 +4,7 @@
 
 <template>
     <section  class=" bg-slate-200 py-20 mb-20 rounded-[4rem]">
-        <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 relative ">
+        <Container customClass="relative">
             <div class="grid grid-cols-2 gap-10 2xl:gap-5">
                 <div class="col-span-1 flex justify-center items-center">
                     <img :src="Founder" alt="">
@@ -26,6 +26,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </Container>
     </section>
 </template>

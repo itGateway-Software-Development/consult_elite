@@ -4,7 +4,7 @@ import WomanPic from "@/assets/images/mainPage/woman.jpg";
 
 <template>
   <section class="bg-default-100 py-16 mb-20 rounded-[4rem]">
-    <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20">
+    <Container>
       <div class="grid grid-cols-5 gap-5">
         <div class="col-span-3">
             <form>
@@ -131,6 +131,6 @@ import WomanPic from "@/assets/images/mainPage/woman.jpg";
             </div>
         </div>
       </div>
-    </div>
+    </Container>
   </section>
 </template>

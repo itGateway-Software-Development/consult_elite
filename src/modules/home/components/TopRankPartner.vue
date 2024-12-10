@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-8 px-20 mb-20">
+    <Container customClass="mb-20">
         <SectionHeader title="Top Ranking Partners" />
         <p class="mt-6 text-slate-600">
             Here are the top universities according to the QS World Rankings. Consult Elite is proud to partner with these esteemed institutions
@@ -16,5 +16,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </Container>
 </template>
