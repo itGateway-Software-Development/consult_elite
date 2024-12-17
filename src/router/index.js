@@ -22,6 +22,16 @@ const routes = [
           }
         ]
       },
+      {
+        path: '/blogs',
+        name: 'blogs',
+        component: () => import('@/modules/blog/views/Blog.vue')
+      },
+      {
+        path: '/blogs/:id',
+        name: 'blog-detail',
+        component: () => import('@/modules/blog/views/BlogDetail.vue'),
+      }
     ]
   },
   {

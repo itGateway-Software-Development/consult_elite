@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "autoprefixer": "^10",
+    "axios": "^1.7.9",
     "flowbite": "^2.5.2",
+    "lucide-vue-next": "^0.468.0",
     "pinia": "^2.2.4",
     "postcss": "^8",
     "swiper": "^11.1.14",

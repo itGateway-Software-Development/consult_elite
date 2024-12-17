@@ -126,9 +126,11 @@ window.addEventListener('scroll', () => {
             </svg>
             <WhatWeDo />
           </li>
-          <li class="cursor-pointer hover:text-[#ee4723] duration-150">
-            <span class="font-semibold">Blog</span>
-          </li>
+          <RouterLink to="/blogs">
+              <li :class="`cursor-pointer hover:text-[#ee4723] duration-150 ${getParentRoute() == 'blogs' ? 'text-[#ee4723]' : ''}`">
+                <span class="font-semibold">Blog</span>
+              </li>
+          </RouterLink>
         </ul>
       </div>
 
