@@ -15,7 +15,7 @@ const getParentRoute = () => {
   return route_segments[0] || '/';
 }
 
-
+const goContact = () => router.push('/what-we-do/contact-us')
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 10) { 
@@ -89,7 +89,7 @@ window.addEventListener('scroll', () => {
           <li
             class="flex items-center gap-1 group cursor-pointer hover:text-[#ee4723] duration-150 relative"
           >
-            <span class="font-semibold">Student Services</span>
+            <span class="font-semibold">Our Services</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -152,7 +152,7 @@ window.addEventListener('scroll', () => {
               </li>
             </ul>
           </li>
-        <Button text="Get Started" />
+        <Button @click="goContact" text="Contact Us" />
       </div>
     </Container>
   </nav>

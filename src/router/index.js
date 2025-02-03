@@ -19,6 +19,16 @@ const routes = [
             path: 'contact-us',
             name: 'contact-us',
             component: () => import('@/modules/what_we_do/contact_us/views/ContactUs.vue')
+          },
+          {
+            path: 'work-with-us',
+            name: 'work-with-us',
+            component: () => import('@/modules/what_we_do/work_with_us/views/WorkWithUs.vue')
+          },
+          {
+            path: 'about-us',
+            name: 'about-us',
+            component: () => import('@/modules/what_we_do/about_us/views/AboutUs.vue')
           }
         ]
       },

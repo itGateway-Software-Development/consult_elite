@@ -11,17 +11,19 @@ import StudyAbroadStep from '@/modules/home/components/StudyAbroadStep.vue';
 import SuccessStory from '@/modules/home/components/SuccessStory.vue';
 import TopRankPartner from '@/modules/home/components/TopRankPartner.vue';
 import TrendingCourses from '@/modules/home/components/TrendingCourses.vue';
+import CurrentlyAppliedColleges from '../components/CurrentlyAppliedColleges.vue';
 </script>
 
 <template>
   <div class="home">
     <Carousel />
     <SocialProof />
-    <ContactForm />
+    <Founder />
     <OurServices />
     <SuccessStory />
-    <Founder />
+    <ContactForm />
     <TopRankPartner />
+    <CurrentlyAppliedColleges />
     <TrendingCourses />
     <StudyAbroadStep />
     <Blog />

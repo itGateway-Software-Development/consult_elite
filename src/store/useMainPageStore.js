@@ -81,18 +81,18 @@ export const useMainPageStore = defineStore("mainPageStore", () => {
       to: "#",
     },
     {
-      title: "Business Consult & Coaching",
-      image: require("@/assets/images/mainPage/courses/business_consulting.webp"),
+      title: "Bioscience",
+      image: require("@/assets/images/mainPage/courses/bioscience.jpg"),
       to: "#",
     },
     {
-      title: "Finance",
-      image: require("@/assets/images/mainPage/courses/finance.jpg"),
+      title: "Health & Appiled Sciences",
+      image: require("@/assets/images/mainPage/courses/health.jpeg"),
       to: "#",
     },
     {
-      title: "Architecture",
-      image: require("@/assets/images/mainPage/courses/archi.jpg"),
+      title: "Psychology",
+      image: require("@/assets/images/mainPage/courses/psychology.jpg"),
       to: "#",
     },
     {

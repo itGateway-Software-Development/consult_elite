@@ -4,9 +4,9 @@
 
 <template>
     <Container customClass="mb-20">
-        <SectionHeader title="Our Partners" link_name="Partner with us" link="/what-we-do/work-with-us"/>
+        <SectionHeader title="Currently Applied Colleges" />
         <p class="mt-6 text-slate-600">
-            Here are the top universities according to the QS World Rankings. Consult Elite is proud to partner with these esteemed institutions
+            Here are the currently applied colleges.
         </p>
 
         <div class="mt-10 px-20">
