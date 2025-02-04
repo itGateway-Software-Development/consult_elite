@@ -29,6 +29,16 @@ const routes = [
             path: 'about-us',
             name: 'about-us',
             component: () => import('@/modules/what_we_do/about_us/views/AboutUs.vue')
+          },
+          {
+            path: 'founder',
+            name: 'founder',
+            component: () => import('@/modules/what_we_do/founder/views/Founder.vue')
+          },
+          {
+            path: 'whatwedo',
+            name: 'whatwedo',
+            component: () => import('@/modules/what_we_do/what_we_do/views/WhatWeDo.vue')
           }
         ]
       },
