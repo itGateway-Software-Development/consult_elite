@@ -12,6 +12,7 @@ import SuccessStory from '@/modules/home/components/SuccessStory.vue';
 import TopRankPartner from '@/modules/home/components/TopRankPartner.vue';
 import TrendingCourses from '@/modules/home/components/TrendingCourses.vue';
 import CurrentlyAppliedColleges from '../components/CurrentlyAppliedColleges.vue';
+import OurTeam from '../components/OurTeam.vue';
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import CurrentlyAppliedColleges from '../components/CurrentlyAppliedColleges.vue
     <SocialProof />
     <Founder />
     <OurServices />
+    <OurTeam />
     <SuccessStory />
     <ContactForm />
     <TopRankPartner />
