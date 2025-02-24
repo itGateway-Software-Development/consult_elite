@@ -127,7 +127,7 @@ import WomanPic from "@/assets/images/mainPage/woman.jpg";
         </div>
         <div class="col-span-2">
             <div class="image flex justify-end">
-                <img class="rounded-lg" :src="WomanPic" alt="woman">
+                <img class="rounded-lg h-[600px]" :src="WomanPic" alt="woman">
             </div>
         </div>
       </div>

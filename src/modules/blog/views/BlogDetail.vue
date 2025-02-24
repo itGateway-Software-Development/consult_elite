@@ -3,10 +3,13 @@ import { useBlogStore } from "@/store/useBlogStore";
 import { Clock, ArrowLeft } from "lucide-vue-next";
 import { computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
+import {useLocaleStore} from "@/store/useLocaleStore";
 
 const route = useRoute();
 const id = route.params.id;
 const blogStore = useBlogStore();
+const localeStore = useLocaleStore();
+const locale = computed(() => localeStore.locale);
 
 const blog = computed(() => blogStore.getBlogDetail(Number(id)));
 
@@ -32,11 +35,11 @@ onMounted(() => {
             <Clock class="w-5 h-5" /> {{ blog.date }}
           </p>
           <h1 class="text-xl font-bold text-slate-700 mb-3">
-            {{ blog.title }}
+            {{ locale == 'EN' ? blog.title_eng : blog.title_mm }}
           </h1>
-          <p class="text-justify">
-            {{ blog.content }}
-          </p>
+          <div>
+            <span v-html="locale == 'EN' ? blog.content_eng : blog.content_mm" />
+          </div>
         </div>
       </div>
     </div>

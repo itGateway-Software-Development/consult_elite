@@ -12,7 +12,7 @@
         <RouterLink to="/what-we-do/whatwedo"><li :class="`font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200 ${getChildRoute() === 'whatwedo' ? 'bg-slate-200' : ''}`">What We Do</li></RouterLink>
         <RouterLink to="/what-we-do/founder"><li :class="`font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200 ${getChildRoute() === 'founder' ? 'bg-slate-200' : ''}`">Founder & President</li></RouterLink>
         <RouterLink to="/what-we-do/about-us"><li :class="`font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200 ${getChildRoute() === 'about-us' ? 'bg-slate-200' : ''}`">About Us</li></RouterLink>
-        <li class="font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200">Success Story</li>
+        <RouterLink to="/what-we-do/success-story"><li :class="`font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200 ${getChildRoute() === 'success-story' ? 'bg-slate-200' : ''}`">Success Story</li></RouterLink>
         <RouterLink to="/what-we-do/work-with-us"><li :class="`font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200 ${getChildRoute() === 'work-with-us' ? 'bg-slate-200' : ''}`">Work With Us</li></RouterLink>
         <RouterLink to="/what-we-do/contact-us"><li :class="`font-semibold text-sm px-3 py-1 rounded text-slate-700 hover:bg-slate-200 ${getChildRoute() === 'contact-us' ? 'bg-slate-200' : ''}`">Contact Us</li></RouterLink>
       </ul>

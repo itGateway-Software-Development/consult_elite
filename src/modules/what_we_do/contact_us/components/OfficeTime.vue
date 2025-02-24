@@ -7,7 +7,7 @@
                     <p class="mb-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos deserunt itaque. Quisquam necessitatibus, fugiat perspiciatis maiores eligendi beatae voluptatum neque distinctio quos dicta ratione 
                     </p>
-                    <a href="https://maps.app.goo.gl/svvnkHX5h7nDy9bDA" target="_blank">
+                    <a href="https://maps.app.goo.gl/eBxyiDPqM94edDJc6" target="_blank">
                         <ButtonOutline text="Get Directions" className="bg-transparent" />
                     </a>
                 </div>

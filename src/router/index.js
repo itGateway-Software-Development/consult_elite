@@ -39,6 +39,11 @@ const routes = [
             path: 'whatwedo',
             name: 'whatwedo',
             component: () => import('@/modules/what_we_do/what_we_do/views/WhatWeDo.vue')
+          },
+          {
+            path: 'success-story', 
+            name: 'success-story',
+            component: () => import('@/modules/what_we_do/success_story/views/SuccessStory.vue')
           }
         ]
       },

@@ -7,13 +7,14 @@ import { initGlobalComponents } from './plugins/components'
 import { createPinia } from 'pinia'
 import "swiper/css";
 import "lucide-vue-next"
-import { createI18n } from 'vue-i18n'
+import {  createI18n } from 'vue-i18n'
 import EN from './locale/EN.json'
 import MM from './locale/MM.json'
 import { useLocaleStore } from './store/useLocaleStore'
 
 
 const i18n = createI18n({
+    legacy: false,
     locale: 'EN',
     messages: {
         EN,
@@ -29,7 +30,7 @@ app.use(pinia)
 const localeStore = useLocaleStore();
 
 watch(() => localeStore.locale, (newValue) => {
-    i18n.global.locale = newValue
+    i18n.global.locale.value = newValue; 
 })
 
 initGlobalComponents(app)

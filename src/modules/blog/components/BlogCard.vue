@@ -1,10 +1,16 @@
 <script setup>
-import {Clock, ArrowRight} from 'lucide-vue-next'
+    import {Clock, ArrowRight} from 'lucide-vue-next'
+    import { useLocaleStore } from '@/store/useLocaleStore';
+    import { computed } from 'vue';
+
     defineProps({
         blog: {
             type: Object
         }
     })
+
+    const localeStore = useLocaleStore();
+    const locale = computed(() => localeStore.locale);
 </script>
 
 <template>
@@ -15,10 +21,8 @@ import {Clock, ArrowRight} from 'lucide-vue-next'
                 <Clock class="w-4 h-4 font-bold" />
                 {{ blog.date }}
             </div>
-            <h2 class="text-lg font-bold text-slate-700 line-clamp-2 mb-3 h-[55px]">{{ blog.title }}</h2>
-            <p class="text-sm text-slate-600 line-clamp-4 mb-5">
-                {{ blog.content }}
-            </p>
+            <h2 class="text-lg font-bold text-slate-700 line-clamp-2 mb-3 h-[55px]">{{ locale == 'EN' ? blog.title_eng : blog.title_mm }}</h2>
+            <p class="text-sm text-slate-600 line-clamp-4 mb-5" v-html="locale == 'EN' ? blog.content_eng : blog.content_mm"></p>
             <RouterLink :to="`/blogs/${blog.id}`" class="flex items-center gap-2 text-[#ee4723]">Read More <ArrowRight class="w-5 h-5" /></RouterLink>
         </div>
     </div>

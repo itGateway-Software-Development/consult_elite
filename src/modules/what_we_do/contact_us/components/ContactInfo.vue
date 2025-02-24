@@ -3,23 +3,22 @@
         {
             title: "Email",
             data: [
-                "contact@consultelite@gmail.com",
-                "info@consultelite@gmail.com",
+                "yinyincho@consultelitemm.com",
             ],
             img: require("@/assets/images/whatWeDo/mail.png")
         },
         {
             title: "Phone",
             data: [
-                "09-999-999-999",
-                "09-999-999-999"
+                "+95-9 785418438",
+                "+95-97576363647"
             ],
             img: require("@/assets/images/whatWeDo/phone.png")
         },
         {
             title: "Address",
             data: [
-                "No. 123, Street, City, Country 12345, No. 123, Street, City, Country 12345 ",
+                "No.39 (A), 1st Floor, Za Lun Street, Sanchaung Township, Yangon, Burma.Postal Code11111",
             ],
             img: require("@/assets/images/whatWeDo/location.png")
         }
